@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="intro-container">
+    <h1>Bienvenido a GLAMRUSH</h1>
+    <p>Descubre la mejor selección de productos de belleza y cosméticos. En GLAMRUSH, ofrecemos una amplia variedad de productos para que te sientas y te veas increíble.</p>
+    <p>Inicia sesión para acceder a nuestras ofertas exclusivas y descuentos especiales en nuestros productos.</p>
+    <p>¡No te pierdas la oportunidad de encontrar tu próximo producto favorito!</p>
+    <a href="/signin" class="btn">Iniciar Sesión</a>
+</div>
+
+<style>
+    .intro-container {
+        text-align: center;
+        padding: 50px;
+        background-color: #f9f9f9;
+        border-radius: 10px;
+        margin: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+        font-size: 2.5em;
+        margin-bottom: 20px;
+        color: #333;
+    }
+
+    p {
+        font-size: 1.2em;
+        margin: 15px 0;
+        color: #666;
+    }
+
+    .btn {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 10px 20px;
+        font-size: 1.1em;
+        color: white;
+        background-color: #007bff; /* Color azul */
+        border: none;
+        border-radius: 5px;
+        text-decoration: none;
+    }
+
+    .btn:hover {
+        background-color: #0056b3; /* Color azul más oscuro al pasar el ratón */
+    }
+</style>
+
+{% endblock %}
